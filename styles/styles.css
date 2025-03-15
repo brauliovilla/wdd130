@@ -12,7 +12,7 @@ nav a {
 }
 
 main {
-    max-width: px;
+    max-width: 840px;
 }
 
 h1 {
@@ -27,7 +27,7 @@ main img {
 }
 
 p {
-    padding: 10px;
+    padding: 0;
 }
 
 aside {
