@@ -1,0 +1,52 @@
+:root {
+    --primary-color: #00a8e8;
+    --secondary-color: #003459;
+    --accent1-color: #007ea7;
+    --accent2-color: #ffffff;
+    
+}
+
+nav {
+    font-family: "Merriweather", serif;
+  
+
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+.hero {
+    position: relative;
+}
+
+.hero h1 {
+    position: absolute;
+	top: 70px;
+	left: 650px;
+
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+
+    
+}
+article {
+    width: 20%;
+    position: absolute;
+    top: 200px;
+	right: 25px;
+    opacity: 0.8;
+    
+
+}
+
+
+
+
+footer {
+    background-color: var(--secondary-color)
+}
