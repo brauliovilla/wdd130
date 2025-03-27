@@ -6,13 +6,15 @@
     
 }
 
+
+
 nav {
     font-family: "Merriweather", serif;
   
 
 }
 
-a {
+nav a{
     text-decoration: none;
     
 }
@@ -31,9 +33,13 @@ a {
     display: block;
     width: 100%;
     height: auto;
-
     
 }
+
+h2 {
+    color: var(--primary-color);
+}
+
 article {
     width: 20%;
     position: absolute;
@@ -48,5 +54,19 @@ article {
 
 
 footer {
-    background-color: var(--secondary-color)
+    background-color: var(--secondary-color);
+    width: 100%;
+    height: 50px;
+}
+
+.sociallinks img{
+    width: 40px;
+    height: 40px;
+    
+
+}
+
+.sociallinks a {
+    position: relative;
+    left: 45%;
 }
