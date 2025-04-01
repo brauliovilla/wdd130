@@ -51,7 +51,6 @@ header{
 }
 
 .flex a {
-    display: bloc;
 	color: navy;
 	padding: 20px;
 	text-decoration: none;
@@ -161,7 +160,7 @@ body {
     
     text-align: center;
     padding: 20px;
-    background-color: var(--accent1-color);
+    background-color: var(--primary-color);
     border: 1px solid #ddd;
     border-radius: 20px;
     margin: 10px 0;
