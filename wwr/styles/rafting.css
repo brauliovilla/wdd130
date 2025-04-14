@@ -379,3 +379,122 @@ footer a {
     align-items: center;
     justify-content: start;
 }
+
+/* here started trips */
+
+
+.trip1 {
+    padding: 25px;
+    margin: 10px 0;
+    background-color: var(--primary-color);
+    border-radius: 15px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.trip1 h1 {
+    margin-bottom: 20px;
+    font-family: "Merriweather", serif;
+}
+
+
+.btn {
+    padding: 10px;
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    align-items: center;
+    margin-top: 50px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px; 
+}
+
+.btn:hover {
+    background-color: var(--accent1-color);
+}
+
+.trip2 {
+    width: 100%;
+    background: white;
+    height: 425px;
+    border-radius: 15px;
+
+    
+}
+
+.trip2 h2 {
+    padding: 20px;
+    font-family: "Merriweather", serif;
+}
+
+.trip2 h3 {
+    letter-spacing: 1px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: "Roboto", serif;
+}
+.adventuress {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.column {
+    width: 350px;
+    height: 250px;
+    margin: 20px;
+    border-radius: 15px;
+    background: var(--primary-color);
+    font-size: 1vw;
+    box-shadow: 0 0 15px rgba(175, 179, 183, 0.658);
+}
+
+.column img {
+    width: 275px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+ 
+}
+
+.column p {
+    padding: 5px 15px;
+    
+
+}
+
+.table1 {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: "Merriweather", serif;
+    font-size: 13px;
+}
+
+.table1 table {
+    background-color: white;
+    width: 60%;
+    height: 125px;
+    box-shadow: 0 0 15px rgba(50, 52, 54, 0.658);
+
+
+}
+
+table,th,td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    
+}
+
+table,td:hover{
+    background-color: var(--accent1-color);
+}
+
+.table1 thead {
+    background: var(--secondary-color);
+    color: white;
+}
