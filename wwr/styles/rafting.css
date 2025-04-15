@@ -546,16 +546,18 @@ table,td:hover{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.linktrips button{
+.linktrips p{
+    margin-bottom: 30px;
+}
+.linktrips a{
     width: 120px;
     margin-left: 95px;
-    margin-top: 30px;
     font-size: 16px;
     background: var(--secondary-color);
     color: white;
 }
 
-.linktrips button:hover{
+.linktrips a:hover{
     background: var(--accent1-color);
 
 }
@@ -605,3 +607,29 @@ table,td:hover{
     font-family: "Merriweather", serif;
 }
 
+.additional {
+    background: var(--primary-color);
+    border-radius: 15px;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.additional img {
+    width: 200px;
+    padding: 5px;
+    border-radius: 50px;
+    margin-left: 100px;
+    box-shadow: 0 5px 20px rgba(26, 27, 54, 0.685);
+    margin-bottom: 10px;
+}
+
+.additional figcaption{
+    margin-left: 50px;
+    margin-right: 50px;
+    background: var(--accent2-color);
+    border-radius: 15px;
+    padding: 5px;
+    
+}
